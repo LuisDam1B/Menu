@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/item1"
+        android:title="Item Uno"
+        android:icon="@mipmap/ic_launcher"
+        app:showAsAction="never">
+
+    </item>
+    <item
+        android:id="@+id/item2"
+        android:title="Item Dos"
+        android:icon="@mipmap/ic_launcher"
+        app:showAsAction="never">
+
+    </item>
+
+    <group
+        android:id="@+id/grupo1">
+
+
+        <item
+            android:id="@+id/item3"
+            android:title="Item Tres"
+            android:icon="@mipmap/ic_launcher"
+            app:showAsAction="never">
+
+        </item>
+        <item
+            android:id="@+id/item4"
+            android:title="Item Cuatro"
+            android:icon="@mipmap/ic_launcher"
+            app:showAsAction="never">
+
+        </item>
+
+    </group>
+
+</menu>
